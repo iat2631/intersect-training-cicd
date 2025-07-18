@@ -24,7 +24,7 @@ jobs:
         run: python -m pytest
 
   test-python-3-11:
-    name: Check Python 3.10 on Ubuntu
+    name: Check Python 3.11 on Ubuntu
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
